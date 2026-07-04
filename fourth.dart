@@ -34,9 +34,19 @@
 //   String tn = (age > 12 && age < 20) ? "Teenger" : "Not teeneger";
 //   print(tn);
 // }
-void main() {
-  List<String> footballplayers = ['Ronaldo', 'Messi', 'Neymar', 'Hazard'];
-  footballplayers.forEach((names) {
-    print(names);
-  });
-}
+// void main() {
+//   List<String> footballplayers = ['Ronaldo', 'Messi', 'Neymar', 'Hazard'];
+//   footballplayers.forEach((names) {
+//     print(names);
+//   });
+// }
+
+// void main() {
+//   List<String> CricPlayers = ['Virat', 'de Villiars', 'Hazlewood'];
+//   CricPlayers.forEach((names) {
+//     print(names);
+//   });
+// }
+
+void sum(a, b) => print("Sum");
+void Sum(a, b) => a + b;
