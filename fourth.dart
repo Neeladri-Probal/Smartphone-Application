@@ -29,8 +29,14 @@
 //   int mx = num1 > num2 ? num1 : num2;
 //   print(mx);
 // }
+// void main() {
+//   int age = 10;
+//   String tn = (age > 12 && age < 20) ? "Teenger" : "Not teeneger";
+//   print(tn);
+// }
 void main() {
-  int age = 10;
-  String tn = (age > 12 && age < 20) ? "Teenger" : "Not teeneger";
-  print(tn);
+  List<String> footballplayers = ['Ronaldo', 'Messi', 'Neymar', 'Hazard'];
+  footballplayers.forEach((names) {
+    print(names);
+  });
 }
